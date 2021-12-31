@@ -1,3 +1,131 @@
+body {
+    background-color: #e5e5e5;
+    padding-left: 132px;
+    padding-top: 115px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 46px;
+    color: black;
+    margin: 0 0 70px 0;
+}
+
+.inputs-block {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
+
+.input-item {
+    margin-right: 40px;
+    min-width: 255px;
+}
+
+.input-item-title {
+    margin-bottom: 30;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+}
+
 .input.error {
     border: 1px solid red;
 }
+
+input {
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border: none;
+    height: 56px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color:rgba(0, 0, 0, 0.7);
+    padding-left: 18px;
+    width: 100%;
+}
+
+#add-word-btn {
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border: none;
+    height: 56px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color:rgba(0, 0, 0, 0.7);
+    width: 141px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+#add-word-btn:hover {
+    background: rgba(255, 255, 255, 0.447);
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+}
+
+table {
+    width: 300px;
+}
+
+.tr {
+    position: relative;
+}
+
+.btn-delete {
+    background-image: url('img/close-button-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    border: none;
+}
+
+.eng-word {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43зч;
+    letter-spacing: 0.03em;
+    color: black;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 40px 0;
+}
+.rus-word {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 35px;
+    line-height: 43зч;
+    letter-spacing: 0.03em;
+    color: black;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 40px 0;
+}
+
+
