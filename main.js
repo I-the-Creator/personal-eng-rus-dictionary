@@ -78,7 +78,7 @@ const deleteWord = event => {   // удаление строки в которо
     /*получаем доступ к ряду <tr> в котором мы кликнули кнопку
     и с помощтю свойства rowIndex - получаем индекс этого ряда - нумерация с нуля */
     const rowIndex = event.target.parentNode.parentNode.rowIndex;
-        console.log(rowIndex);
+        // console.log(rowIndex);
     event.target.parentNode.parentNode.parentNode.remove();      // удаление строки из верстки
 
     // удаление элемента из массива
